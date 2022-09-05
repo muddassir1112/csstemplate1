@@ -1,0 +1,110 @@
+.header {
+  background-color: rgba(204, 204, 204, 255);
+  height: 20%;
+}
+h1 {
+  padding: 1.5% 0% 0% 3%;
+  font-family: roboto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: roboto;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li a:active {
+  background-color: rgba(0, 140, 34, 255);
+}
+.main{
+  height:39em;
+  box-sizing:border-box;
+}
+.left {
+  margin-left: 3%;
+  float: left;
+  text-align: justify;
+  width: 60%;
+  height: 38em;
+}
+.left h1 {
+  margin-left: -2.7%;
+  color: rgba(42, 80, 99, 255);
+  font-family: roboto;
+}
+.para1 {
+  margin-top: -1.3em;
+  text-align: left;
+  font-family: roboto;
+}
+.right {
+  float: right;
+  background-color: rgba(224, 224, 224, 255);
+  width: 30%;
+  margin-right: 0%;
+  height:38em;
+}
+.right p {
+  color: black;
+  text-align: justify;
+  margin-top: -1.3em;
+  width: 85%;
+  padding-left: 5%;
+  font-family: roboto;
+}
+.right h2 {
+  color: rgba(42, 80, 99, 255);
+  padding-left: 5%;
+  font-family: roboto;
+}
+ #foot {
+  margin-top:5%;
+  margin-left:-5%;
+  display: inline-flexbox;
+  width: 166.5%;
+  background-color: rgba(204, 204, 204, 255);
+  height: 50px;
+  
+ }
+
+#foot p{
+  text-align:right;
+  padding-top:1em;
+  padding-right:1em;
+  font-family: roboto;
+ 
+}
+/*
+.box{
+ display:flex;
+}
+/* #foot{
+  margin-top:-1em;
+  height: 20px;
+  float: right;
+  width: 100%;
+  position: relative;
+ 
+}
+#foot footer{
+  background-color: rgba(204, 204, 204, 255);
+  
+} */
